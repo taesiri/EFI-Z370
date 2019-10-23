@@ -1,2 +1,9 @@
+
+
 # EFI-Z370
-EFI folder for my Catalina Setup
+
+EFI for Catalina Hackintosh. 
+
+# Screenshot
+
+![Screnshot](Images/Scrennshot.png "")
