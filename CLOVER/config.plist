@@ -94,7 +94,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 alcid=27</string>
+		<string>dart=0 alcid=27 agdpmod=pikera</string>
 		<key>DefaultVolume</key>
 		<string>Catalinosh</string>
 		<key>Timeout</key>
@@ -171,7 +171,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>clover-minimal</string>
+		<string>Clovy</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
