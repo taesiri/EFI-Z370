@@ -2,7 +2,7 @@
 
 EFI folder for Catalina on Z370. (Clover r5108)
 
-## Update Jun 2, 2020
+## Update June 2, 2020
 
 * Updated to 10.15.5 (19F101)
 * Updated all Kexts to their latest version
