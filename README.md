@@ -14,4 +14,4 @@ EFI folder for Catalina on Z370. (Clover r5108)
 
 ## Known Issues
 
-* Sidecar not working
+* Random Stutter
