@@ -2,6 +2,17 @@
 
 EFI folder for Catalina on Z370. (Clover r5108)
 
+## Config
+
+| Hardware    	| Detail                       	|
+|-------------	|------------------------------	|
+| CPU         	| Core i7 - 8700K              	|
+| Motherboard 	| Gigabyte Z370 HD3p           	|
+| RAM         	| 4x16GB Geil 2400Mhz          	|
+| VGA         	| RX 480<br>or<br>GTX 780Ti    	|
+| Storage     	| Samsung 970 EVO 250GB - NVMe 	|
+| WiFi Card   	| TP-Link AC1900 Archer T9E    	|
+
 ## Update June 2, 2020
 
 * Updated to 10.15.5 (19F101)
