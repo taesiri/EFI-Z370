@@ -1,64 +1,34 @@
 
-Clover EFI installer log - Sat Apr  4 14:25:58 +0430 2020
-Installer version: r5108 EFI bootloader
+Clover EFI installer log - Sun Sep 27 01:33:32 +0330 2020
+Installer version: r5122 (commit: f4e10b1a2) EFI bootloader
 ======================================================
 /dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *250.1 GB   disk0
    1:                        EFI EFI                     209.7 MB   disk0s1
-   2:                 Apple_APFS Container disk3         249.8 GB   disk0s2
+   2:                 Apple_APFS Container disk1         249.8 GB   disk0s2
 
-/dev/disk1 (internal, physical):
+/dev/disk1 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *250.1 GB   disk1
-   1:                        EFI EFI                     209.7 MB   disk1s1
-   2:                 Apple_APFS Container disk2         249.8 GB   disk1s2
-
-/dev/disk2 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +249.8 GB   disk2
-                                 Physical Store disk1s2
-   1:                APFS Volume Catalinosh - Data       167.8 GB   disk2s1
-   2:                APFS Volume Catalinosh              11.1 GB    disk2s2
-   3:                APFS Volume Preboot                 325.7 MB   disk2s3
-   4:                APFS Volume Recovery                528.5 MB   disk2s4
-   5:                APFS Volume VM                      2.1 GB     disk2s5
-
-/dev/disk3 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +249.8 GB   disk3
+   0:      APFS Container Scheme -                      +249.8 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume TinyWorks               157.3 GB   disk3s1
+   1:                APFS Volume Catalinosh - Data       196.2 GB   disk1s1
+   2:                APFS Volume MacOS                   11.6 GB    disk1s2
+   3:                APFS Volume Preboot                 168.4 MB   disk1s3
+   4:                APFS Volume Recovery                529.1 MB   disk1s4
+   5:                APFS Volume VM                      2.1 GB     disk1s5
 
-/dev/disk4 (internal, physical):
+/dev/disk2 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *3.0 TB     disk4
-   1:                        EFI EFI                     209.7 MB   disk4s1
-   2:                 Apple_APFS Container disk6         3.0 TB     disk4s2
+   0:      GUID_partition_scheme                        *4.0 TB     disk2
+   1:                        EFI EFI                     209.7 MB   disk2s1
+   2:                  Apple_HFS Workspace               4.0 TB     disk2s2
 
-/dev/disk5 (internal, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *3.0 TB     disk5
-   1:                        EFI EFI                     209.7 MB   disk5s1
-   2:                 Apple_APFS Container disk7         3.0 TB     disk5s2
-
-/dev/disk6 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +3.0 TB     disk6
-                                 Physical Store disk4s2
-   1:                APFS Volume Archive 2               2.7 TB     disk6s1
-
-/dev/disk7 (synthesized):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      APFS Container Scheme -                      +3.0 TB     disk7
-                                 Physical Store disk5s2
-   1:                APFS Volume Archive                 3.0 TB     disk7s1
-
-Target volume /Volumes/Catalinosh on disk2 is APFS on physical store disk1s2
+Target volume /Volumes/MacOS on disk1 is APFS on physical store disk0s2
 ======================================================
 Backing up EFI files
 
-Backing up /Volumes/Catalinosh/EFIROOTDIR/EFI folder to /Volumes/Catalinosh/EFI-Backups/r5103/2020-04-04-14h25/EFI
+Backing up /Volumes/MacOS/EFIROOTDIR/EFI folder to /Volumes/MacOS/EFI-Backups/r5108/2020-09-27-01h33/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
